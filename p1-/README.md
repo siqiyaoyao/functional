@@ -3,6 +3,10 @@
 ## higher order functions 高阶函数
 - 可以接受一个或多个函数作为参数
 - 返回值为函数
+高阶函数最常见的应用如map(映射)，reduce(规约) forEach(遍历)，filter(过滤)等。
+当函数返回对象为函数时
+需要先构造，生成该接收该返回函数的对象
+然后将该对象作为函数使用
 
 ## first-class functions
 该类型的值可以作为函数的参数和返回值，也可以付给变量。
@@ -48,3 +52,10 @@ var newArr2 = arr.some((value)=>{
 console.log(newArr2)// true
 
 ```
+### reduce()
+reduce(callback，[initialValue])方法接收一个函数作为累加器（accumulator）,从数组索引0号为开始，依次处理，最终成为一个值。
+callback
+- previousValue 上一次调用的返回值，并不是上一个数组里的数
+- currentValue
+- index
+- array

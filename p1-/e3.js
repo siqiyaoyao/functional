@@ -8,3 +8,8 @@ doubleAll = (numbers)=>{
 };
 
 module.exports = doubleAll;
+/*
+var arr = [1,2];
+var newArr = doubleAll(arr);
+console.log(newArr);
+*/
