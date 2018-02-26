@@ -53,9 +53,9 @@ console.log(newArr2)// true
 
 ```
 ### reduce()
-reduce(callback，[initialValue])方法接收一个函数作为累加器（accumulator）,从数组索引0号为开始，依次处理，最终成为一个值。
+reduce(callback，[initialValue])方法接收一个函数作为累加器（accumulator）,从数组索引0号为开始，依次处理，最终成为一个值，可以是数组，物件等。
 callback
-- previousValue 上一次调用的返回值，并不是上一个数组里的数
-- currentValue
+- previousValue 上一次调用的返回值，并不是上一个数组里的数。 
+- currentValue 数组当前被处理的元素
 - index
 - array
