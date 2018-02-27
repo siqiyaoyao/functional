@@ -1,6 +1,6 @@
-# functional 
 
-## Duck type 鸭式辩形
+
+# Duck type 鸭式辩形
 ### prototype
 作用：可以模拟出类和类的实例化的效果，实例继承类的prototype所有属性，
 修改类的prototype属性，实例的下的对应属性也获得改变
