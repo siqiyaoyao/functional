@@ -14,3 +14,5 @@ module.exports = function arrayMap(arr,fn,thisArg){
         return acc;
     },[])
 }
+// test
+//111111
